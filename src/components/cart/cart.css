@@ -1,0 +1,20 @@
+.totalHeading {
+    color: green;
+    float: left;
+    padding-left: 40px;
+}
+.total {
+    color: red;
+    margin-left: 200px;
+}
+
+@media only screen and (max-width: 414px){
+    .right .total{
+        margin-left: 15px;
+    }
+  }
+  @media only screen and (max-width: 768px) and (min-width: 550px){
+    .right .total{
+        margin-left: 100px;
+    }
+  }
